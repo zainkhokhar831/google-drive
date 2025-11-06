@@ -1,0 +1,46 @@
+.image-slide{
+    width: 10% ;
+    position: relative;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px; 
+  border: 0.1px solid black; 
+
+  border-radius: 50%;  /* make them round */
+  background-color: #ffffff; /* black color */
+}
+.carousel-indicators .active {
+  background-color: rgb(0, 0, 0); /* active dot color */
+  
+}
+
+// Carousel arrow controls
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); // makes white arrow icon black
+  width: 1.5rem; // arrow size
+  height: 1.5rem;
+  background-size: 100%, 100%;
+}
+
+// Optional: hover animation
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  transform: scale(1.2);
+}
+
+// Ensure the clickable area of arrows is visible
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1; // make sure arrows are visible
+  width: 10%; // adjust side width for clicking
+}
+
+.slider-text{
+  font-size: 1.9rem;
+}

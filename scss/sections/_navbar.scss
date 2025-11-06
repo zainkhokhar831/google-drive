@@ -1,0 +1,19 @@
+
+@use '../custom'as *;
+
+.menu{
+    li{
+        padding: 0 0.3rem;
+        margin: 0;
+        a{
+            color: $gray-700;
+            text-transform: capitalize;
+            &:hover{
+                color: $blue;
+            }
+        }    
+    }
+
+    
+}
+
